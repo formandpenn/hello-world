@@ -27,7 +27,7 @@ public class MySqlConnector {
             conn = DriverManager.getConnection(CONN_STRING2,USERNAME2,PASSWORD2);
             
             
-            System.out.println("Connected for good");
+            System.out.println("Connected for once and for all");
             
             Statement stmt = conn.createStatement();  
             ResultSet rs = stmt.executeQuery("select * from movie");  
